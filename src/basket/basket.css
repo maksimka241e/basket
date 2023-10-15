@@ -1,0 +1,441 @@
+:root{
+    --color-1: #364364;
+    --color-2: #fff;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.basket-img{
+    margin-top:-10px;
+    width: 30px;
+    justify-content: space-between;
+    
+}
+.basket-btn:hover{
+    transition: 0.5s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.basket-btn{
+    cursor: pointer;
+    width: 100%;
+    max-width:60px;
+    height: 60px;
+    background: var(--color-1);
+    border-radius: 100px;
+    border: none;
+}
+.basket-div{
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 50px;
+}
+#basket{
+    margin-top: -50px;
+    margin-left:35px;
+    font-size: 17px;
+    width: 25px;
+    height: 25px;
+    padding-top:2px;
+    background: rgb(241, 15, 15);
+    border-radius: 100px;
+    color: var(--color-2);
+}
+/* корзина */
+#divBask{
+    margin-top: -50px;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.33);
+    justify-content: space-evenly;
+    display: none;
+    justify-content: center;
+    
+}
+.baks-content{
+    margin-top: -5px;
+    margin-bottom: 30px;
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    min-height: 300px;
+    /* поменять */
+    border: none;
+    border-radius: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.titles-bak{
+    background: var(--color-2);
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: 23px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#bakset-no{
+    background: var(--color-2);
+    margin-top: -72px;
+    margin-left: 762px;
+    display: flex;
+    font-size: 23px;
+    padding:7px;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border:  none;
+    cursor: pointer;
+
+}
+#bakset-no:hover{
+    transition: 0.3s;
+    color:rgb(255, 0, 0);
+}
+/* итоги */
+.buy{
+    border-top: 1px solid #000;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    background: var(--color-2);
+    padding-right: 10px;
+}
+#result{
+    display: flex;
+}
+#discount{
+    margin-top: -10px;
+    display: flex;
+}
+#result-discount{
+    margin-top: -10px;
+    display: flex;
+}
+/* товар */
+#products{
+    padding-top: 20px;
+    padding-left: 10px;
+    min-height: 350px;
+    display: flex;
+    background: var(--color-2);
+    padding-left: 10px;
+    border-top: 1px solid #000;
+    flex-direction: column;
+}
+.bbb{
+    display: flex;
+}
+/* цена */
+#result-dis-money{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+#discount-money{
+   margin-left: 3px;
+   margin-right: 3px;
+}
+#result-money{
+   margin-left: 3px;
+   margin-right: 3px;
+}
+.limBas{
+    display: flex;
+   justify-content: center;
+}
+#titlLim{
+    margin-top: 700px;
+    background: #ff6633;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;  
+    
+}
+.title{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+.spanTit{
+    color: #B3B3B7;
+}
+@media(max-width:1110px){
+    .title{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-evenly;
+    }
+}
+@media(max-width:810px){
+    #bakset-no{
+        margin-left: 745px;
+    }
+}
+@media(max-width:780px){
+    #bakset-no{
+        margin-left: 735px;
+    }
+}
+@media(max-width:761px){
+    #bakset-no{
+        margin-left: 725px;
+    }
+}
+@media(max-width:751px){
+    #bakset-no{
+        margin-left: 715px;
+    }
+}
+@media(max-width:740px){
+    #bakset-no{
+        margin-left: 705px;
+    }
+}
+@media(max-width:731px){
+    #bakset-no{
+        margin-left: 695px;
+    }
+}
+@media(max-width:721px){
+    #bakset-no{
+        margin-left: 685px;
+    }
+}
+@media(max-width:711px){
+    #bakset-no{
+        margin-left: 675px;
+    }
+}
+@media(max-width:701px){
+    #bakset-no{
+        margin-left: 665px;
+    }
+}
+@media(max-width:691px){
+    #bakset-no{
+        margin-left: 655px;
+    }
+}
+@media(max-width:681px){
+    #bakset-no{
+        margin-left: 645px;
+    }
+}
+@media(max-width:671px){
+    #bakset-no{
+        margin-left: 635px;
+    }
+}
+@media(max-width:661px){
+    #bakset-no{
+        margin-left: 625px;
+    }
+}
+@media(max-width:651px){
+    #bakset-no{
+        margin-left: 615px;
+    }
+}
+@media(max-width:641px){
+    #bakset-no{
+        margin-left: 605px;
+    }
+}
+@media(max-width:631px){
+    #bakset-no{
+        margin-left: 595px;
+    }
+}
+@media(max-width:621px){
+    #bakset-no{
+        margin-left: 585px;
+    }
+}
+@media(max-width:611px){
+    #bakset-no{
+        margin-left: 575px;
+    }
+}
+@media(max-width:601px){
+    #bakset-no{
+        margin-left: 565px;
+    }
+}
+@media(max-width:591px){
+    #bakset-no{
+        margin-left: 555px;
+    }
+}
+@media(max-width:581px){
+    #bakset-no{
+        margin-left: 545px;
+    }
+}
+@media(max-width:571px){
+    #bakset-no{
+        margin-left: 535px;
+    }
+}
+@media(max-width:561px){
+    #bakset-no{
+        margin-left: 525px;
+    }
+}
+@media(max-width:551px){
+    #bakset-no{
+        margin-left: 515px;
+    }
+}
+@media(max-width:541px){
+    #bakset-no{
+        margin-left: 505px;
+    }
+}
+@media(max-width:531px){
+    #bakset-no{
+        margin-left: 495px;
+    }
+}
+@media(max-width:521px){
+    #bakset-no{
+        margin-left: 485px;
+    }
+}
+@media(max-width:511px){
+    #bakset-no{
+        margin-left: 475px;
+    }
+}
+@media(max-width:501px){
+    #bakset-no{
+        margin-left: 465px;
+    }
+}
+/* \g
+reslutrg
+reslutgr */
+@media(max-width:491px){
+    #bakset-no{
+        margin-left: 455px;
+    }
+}
+@media(max-width:481px){
+    #bakset-no{
+        margin-left: 445px;
+    }
+}
+@media(max-width:471px){
+    #bakset-no{
+        margin-left: 435px;
+    }
+}
+@media(max-width:461px){
+    #bakset-no{
+        margin-left: 425px;
+    }
+}
+@media(max-width:451px){
+    #bakset-no{
+        margin-left: 415px;
+    }
+}
+@media(max-width:441px){
+    #bakset-no{
+        margin-left: 405px;
+    }
+}
+@media(max-width:431px){
+    #bakset-no{
+        margin-left: 395px;
+    }
+}
+@media(max-width:421px){
+    #bakset-no{
+        margin-left: 385px;
+    }
+}
+@media(max-width:411px){
+    #bakset-no{
+        margin-left: 375px;
+    }
+}
+@media(max-width:401px){
+    #bakset-no{
+        margin-left: 365px;
+    }
+}
+@media(max-width:391px){
+    #bakset-no{
+        margin-left: 355px;
+    }
+}
+@media(max-width:381px){
+    #bakset-no{
+        margin-left: 345px;
+    }
+}
+/* fswf
+ws
+fs
+f */
+@media(max-width:371px){
+    #bakset-no{
+        margin-left: 335px;
+    }
+}
+@media(max-width:361px){
+    #bakset-no{
+        margin-left: 325px;
+    }
+}
+@media(max-width:351px){
+    #bakset-no{
+        margin-left: 315px;
+    }
+}
+@media(max-width:341px){
+    #bakset-no{
+        margin-left: 305px;
+    }
+}
+@media(max-width:331px){
+    #bakset-no{
+        margin-left: 295px;
+    }
+}
+@media(max-width:321px){
+    #bakset-no{
+        margin-left: 285px;
+    }
+}
+@media(max-width:311px){
+    #bakset-no{
+        margin-left: 275px;
+    }
+}
+@media(max-width:301px){
+    #bakset-no{
+        margin-left: 265px;
+    }
+}
+@media(max-width:291px){
+    #bakset-no{
+        margin-left: 255px;
+    }
+}
+@media(max-width:281px){
+    #bakset-no{
+        margin-left: 245px;
+    }
+}
+@media(max-width:271px){
+    #bakset-no{
+        margin-left: 235px;
+    }
+}

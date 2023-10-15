@@ -1,0 +1,287 @@
+body{
+    background: rgba(180, 180, 180, 0.088);
+}
+/* важная вещь самый блок всех карточек */
+.cardsApple{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 420px 420px;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+/* блок */
+.card1{
+    background: #fff;
+    display: flex;
+    width: 225px;
+    min-height: 350px;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.354);
+}
+.card1:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 2px 2px #ff6633;
+}
+/*цена и скидка */
+.result1Dis{
+    display: flex;
+    justify-content: space-between;
+}
+.discount1{
+    font-size:20px;
+}
+.disi1{
+    color: #B3B3B7;
+    font-size: 13px;
+}
+.result1{
+    font-size: 19px;
+    color: rgb(44, 41, 41);
+}
+.resi1{
+    color: #B3B3B7;
+    font-size: 13px; 
+}
+.moneyRes1{
+    text-decoration: line-through;
+}
+/* кнопка */
+#card1Btn{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    height: 40px;
+    color: #70c05b;
+    border: 1px solid #70c05b;
+    border-radius: 4px;
+}
+#card1Btn:hover{
+    transition: 0.5s;
+    background: #ff6633;
+    color: #fff;
+    border: 1px solid #ff6633;
+    
+}
+/* название */
+.cardTitle1{
+    font-size: 16px;
+    padding-bottom: 5px;
+    margin-top: -10px;
+    color: rgb(44, 41, 41);
+    cursor: pointer;
+}
+.cardTitle1:hover{
+    transition: 0.5s;
+    color: #ff6633;
+}
+/* фотка */
+.cardImg1{
+    padding-top: 10px;
+}
+.cardImg1:hover{
+    transition: 0.5s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* product card1 */
+/* создание продукт карточки в корзине */
+/* block1 */
+.productCard1{
+    display: flex;
+    min-height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* img1 */
+.productCard1Img{
+    height: 100px;
+    width: 100px;
+}
+/* title1 */
+.productCard1Title{
+    width: 270px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+/* reslut */
+.productCard1Reslut{
+    display: flex;
+    font-size: 18px;
+    margin-left: 260px;
+    width: 72px;
+}
+/* btnNo */
+.productCard1BtnNot{
+    background: none;
+    border: none;
+    height: 20px;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 19px;
+    cursor: pointer;
+    color: #D62240;
+}
+@media(max-width:1110px){
+    .cardsApple{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 420px 420px;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:560px){
+    .cardsApple{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 420px 420px;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:770px){
+    .productCard1Title{
+        width: 280px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .productCard1Reslut{
+        width: 82px;
+    }
+}
+@media(max-width:735px){
+    .productCard1Reslut{
+        width: 92px;
+        margin-left: 220px;
+    }
+}
+@media(max-width:685px){
+    .productCard1Reslut{
+        width: 92px;
+        margin-left: 200px;
+    }
+}
+@media(max-width:665px){
+    .productCard1Reslut{
+        width: 92px;
+        margin-left: 180px;
+    }
+}
+@media(max-width:640px){
+    .productCard1Reslut{
+        width: 92px;
+        margin-left: 160px;
+    }
+}
+@media(max-width:620px){
+    .productCard1Reslut{
+        width: 92px;
+        margin-left: 140px;
+    }
+}
+@media(max-width:600px){
+    .productCard1Reslut{
+        width: 92px;
+        margin-left: 120px;
+    }
+}
+@media(max-width:580px){
+    .productCard1Reslut{
+        width: 92px;
+        margin-left: 100px;
+    }
+}
+@media(max-width:560px){
+    .productCard1Reslut{
+        width: 92px;
+        margin-left: 80px;
+    }
+}
+@media(max-width:540px){
+    .productCard1Reslut{
+        width: 92px;
+        margin-left: 60px;
+    }
+}
+@media(max-width:520px){
+    .productCard1Reslut{
+        width: 92px;
+        margin-left: 40px;
+    }
+}
+@media(max-width:500px){
+    .productCard1Reslut{
+        width: 92px;
+        margin-left: 20px;
+    }
+}
+@media(max-width:480px){
+    .productCard1Reslut{
+        width: 92px;
+        margin-left: 20px;
+    }
+    .productCard1Title {
+        width: 200px;
+        margin-left: 20px;
+        font-size: 13px;
+    }
+}
+@media(max-width:420px){
+    .productCard1Reslut {
+        width: 80px;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .productCard1Title {
+        width: 200px;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+}
+@media(max-width:390px){
+    .productCard1Reslut {
+        width: 80px;
+        font-size: 13px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .productCard1Title {
+        width: 200px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+}
+@media(max-width:360px){
+    .productCard1Reslut {
+        width: 80px;
+        font-size: 11px;
+        margin-left: 20px;
+        margin-top: 23px;
+    }
+    .productCard1Title {
+        width: 200px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .productCard1Img {
+        height: 100px;
+        width: 80px;
+    }
+}
+@media(max-width:320px){
+    .productCard1Title {
+        width: 200px;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+}
