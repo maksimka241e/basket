@@ -1,0 +1,257 @@
+/* блок */
+.card6{
+    background: #fff;
+    display: flex;
+    width: 225px;
+    min-height: 350px;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.354);
+}
+.card6:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 2px 2px #ff6633;
+}
+/*цена и скидка */
+.result6Dis{
+    display: flex;
+    justify-content: space-between;
+}
+.discount6{
+    font-size:20px;
+}
+.disi6{
+    color: #B3B3B7;
+    font-size: 13px;
+}
+.result6{
+    font-size: 19px;
+    color: rgb(44, 41, 41);
+}
+.resi6{
+    color: #B3B3B7;
+    font-size: 13px; 
+}
+.moneyRes6{
+    text-decoration: line-through;
+}
+/* кнопка */
+#card6Btn{
+    margin-top: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    height: 40px;
+    color: #70c05b;
+    border: 1px solid #70c05b;
+    border-radius: 4px;
+}
+#card6Btn:hover{
+    transition: 0.5s;
+    background: #ff6633;
+    color: #fff;
+    border: 1px solid #ff6633;
+    
+}
+/* название */
+.cardTitle6{
+    font-size: 16px;
+    padding-bottom: 5px;
+    margin-top: -10px;
+    color: rgb(44, 41, 41);
+    cursor: pointer;
+}
+.cardTitle6:hover{
+    transition: 0.5s;
+    color: #ff6633;
+}
+/* фотка */
+.cardImg6{
+    padding-left: 1px;
+    padding-top: 10px;
+}
+.cardImg6:hover{
+    transition: 0.5s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+/* product card6 */
+/* создание продукт карточки в корзине */
+/* block6 */
+.productCard6{
+    display: flex;
+    min-height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* img6 */
+.productCard6Img{
+    height: 100px;
+    width: 100px;
+}
+/* title6 */
+.productCard6Title{
+    width: 270px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+/* reslut6 */
+.productCard6Reslut{
+    display: flex;
+    font-size: 18px;
+    margin-left: 260px;
+    width: 72px;
+}
+/* btnNo6 */
+.productCard6BtnNot{
+    background: none;
+    border: none;
+    height: 20px;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 19px;
+    cursor: pointer;
+    color: #D62240;
+}
+@media(max-width:770px){
+    .productCard6Title{
+        width: 280px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .productCard6Reslut{
+        width: 82px;
+    }
+}
+@media(max-width:735px){
+    .productCard6Reslut{
+        width: 92px;
+        margin-left: 220px;
+    }
+}
+@media(max-width:685px){
+    .productCard6Reslut{
+        width: 92px;
+        margin-left: 200px;
+    }
+}
+@media(max-width:665px){
+    .productCard6Reslut{
+        width: 92px;
+        margin-left: 180px;
+    }
+}
+@media(max-width:640px){
+    .productCard6Reslut{
+        width: 92px;
+        margin-left: 160px;
+    }
+}
+@media(max-width:620px){
+    .productCard6Reslut{
+        width: 92px;
+        margin-left: 140px;
+    }
+}
+@media(max-width:600px){
+    .productCard6Reslut{
+        width: 92px;
+        margin-left: 120px;
+    }
+}
+@media(max-width:580px){
+    .productCard6Reslut{
+        width: 92px;
+        margin-left: 100px;
+    }
+}
+@media(max-width:560px){
+    .productCard6Reslut{
+        width: 92px;
+        margin-left: 80px;
+    }
+}
+@media(max-width:540px){
+    .productCard6Reslut{
+        width: 92px;
+        margin-left: 60px;
+    }
+}
+@media(max-width:520px){
+    .productCard6Reslut{
+        width: 92px;
+        margin-left: 40px;
+    }
+}
+@media(max-width:500px){
+    .productCard6Reslut{
+        width: 92px;
+        margin-left: 20px;
+    }
+}
+@media(max-width:480px){
+    .productCard6Reslut{
+        width: 92px;
+        margin-left: 20px;
+    }
+    .productCard6Title {
+        width: 200px;
+        margin-left: 20px;
+        font-size: 13px;
+    }
+}
+@media(max-width:420px){
+    .productCard6Reslut {
+        width: 80px;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .productCard6Title {
+        width: 200px;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+}
+@media(max-width:390px){
+    .productCard6Reslut {
+        width: 80px;
+        font-size: 13px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .productCard6Title {
+        width: 200px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+}
+@media(max-width:360px){
+    .productCard6Reslut {
+        width: 80px;
+        font-size: 11px;
+        margin-left: 20px;
+        margin-top: 23px;
+    }
+    .productCard6Title {
+        width: 200px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .productCard6Img {
+        height: 100px;
+        width: 80px;
+    }
+}
+@media(max-width:320px){
+    .productCard6Title {
+        width: 200px;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+}
